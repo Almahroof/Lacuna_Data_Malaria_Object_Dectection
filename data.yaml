@@ -1,0 +1,8 @@
+path: /home/wahrwelt/Downloads/Dataset/Lacuna_Malaria_Dataset/Thick_Ghana/data
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test # test images (relative to 'path')
+
+# Classes
+nc: 2 # number of classes (replace with your actual number of classes)
+names: ['WBC','Parasite']  # class names (replace with your actual class names)
